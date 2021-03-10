@@ -1,11 +1,11 @@
   applications:
   - name: dealerreiew
     routes:
-      - route: mysite234.mybluemix.net 
+      - route: dealership767.mybluemix.net 
     memory: 128M
     buildpack: python_buildpack
   - name: dealerreiew-nginx
     routes:
-      - route: mysite234.mybluemix.net
+      - route: dealership767.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
